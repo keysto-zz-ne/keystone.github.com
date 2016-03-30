@@ -1,23 +1,23 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Keystone
+description: A diary on the build of Keystone
+meta_description: "Building, running, and supporting Keystone."
 
-aboutPage: true
+aboutPage: false
 
 markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://keystone.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://keystone.github.io'
+author:         'Mark Huot'
+authorTwitter:  'markhuot'
 
 permalink:       /:year/:title/
 
