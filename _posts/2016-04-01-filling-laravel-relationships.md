@@ -19,14 +19,14 @@ class Requirement {
 
 The above will associate a requirement with a milestone through the `milestone_id` field on the `requirements` table. Using this relationship is where it becomes paticularlly helpful. Within a `.twig` template you may have,
 
-```mustache
+```html
 <td>{{ requirement.title }}</td>
 <td>{{ requirement.milestone.title|default('None') }}</td>
 ```
 
 So far this is what you'd expect out of an ORM. Where I struggle with Eloquent time and time again is trying to set these relationships during a `save()`. For example, in Rails you can do something like this (usually within a `select` call but written out here for clarity),
 
-```erb
+```html
 <select name="requirement[milestone]">
   <option value=""></option>
   <% @milestones.each do |milestone| %>
