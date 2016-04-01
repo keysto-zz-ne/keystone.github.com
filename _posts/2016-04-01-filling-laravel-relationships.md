@@ -19,7 +19,7 @@ class Requirement {
 
 The above will associate a requirement with a milestone through the `milestone_id` field on the `requirements` table. Using this relationship is where it becomes paticularlly helpful. Within a `.twig` template you may have,
 
-```twig
+```mustache
 <td>{{ requirement.title }}</td>
 <td>{{ requirement.milestone.title|default('None') }}</td>
 ```
